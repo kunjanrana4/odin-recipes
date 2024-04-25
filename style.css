@@ -1,9 +1,31 @@
 body{
     background-image: url(images/ingredient-wallpaper.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
-h1{
-    color: whitesmoke
+div{
+    text-align: center;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 45vw;
+    margin: 0px auto;
+    overflow: scroll;
+}
+
+.recipe-image{
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+li{
+    text-align: left;
 }
