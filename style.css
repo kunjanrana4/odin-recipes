@@ -1,6 +1,24 @@
+*{
+    font-size: x-large;
+    text-align: center;
+}
+
+a{
+    font-size: 1.5em;
+}
+
+h1, h2{
+    font-size: 300%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 200%;
+}
+
 html{
     height: 100%;
-    margin: 0;
     background: url(images/ingredient-wallpaper.jpg) no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -18,45 +36,65 @@ html{
 }
 
 .outer-div{
-    text-align: center;
     background-color: whitesmoke;
     width: 95%;
     height: 90%;
     overflow:auto;
-    vertical-align: middle;
-    border-radius: 25px;
-    background-color: aliceblue;
 }
 
-#index-div{
+.container-div{
     height: auto;
-    width: 20%;
-    padding: 20px;
+    width: auto;
+    padding: 10px;
+    font-size: medium;
     background-color:hsl(180, 50%, 70%);
+}
+
+.grouped{
+    display: flex;
+    padding: 10px;
+}
+
+.index{
+    width: 300px;
+}
+
+.rounded-corners{
     border-radius: 25px;
+}
+
+.left-rounded{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.right-rounded{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .recipe-image{
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
-
 }
 
-a{
-    font-size: x-large;
-}
-h1, h2{
-    text-align: center;
+.ingredients{
+    background-color: hsl(0, 100%, 75%);
+    width: 50vw;
+}   
+
+.description{
+    background-color: rgb(221, 150, 99);
 }
 
 ul{
     list-style-type: none;
-    li:before{ content: '> '; font-size: x-large};
+    li:before{ content: '> '};
 }
 li{
     text-align: left;
+    padding-top: 10px;
 }
